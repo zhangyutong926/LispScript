@@ -2,7 +2,7 @@ package agsmicrosystems.lispscript.ast.core.value.fundliteral;
 
 import agsmicrosystems.lispscript.ast.prototype.EFundType;
 import agsmicrosystems.lispscript.ast.prototype.IFundValueLiteral;
-import agsmicrosystems.lispscript.ast.prototype.IValueLiteral;
+import agsmicrosystems.lispscript.ast.prototype.IValue;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class ListLiteral implements IFundValueLiteral {
 
-    private List<IValueLiteral> value;
+    private List<IValue> value;
 
     @Override
     public EFundType getFundType() {
@@ -38,7 +38,7 @@ public class ListLiteral implements IFundValueLiteral {
         return "mklist";
     }
 
-    public ListLiteral(List<IValueLiteral> value) {
+    public ListLiteral(List<IValue> value) {
         this.value = value;
     }
 

@@ -5,18 +5,13 @@ import agsmicrosystems.lispscript.interp.InterpEnv;
 /**
  * Created by zhangyutong926 on 1/25/17.
  */
-public interface IValueLiteral extends ISmtcElem {
+public interface IValue extends ISmtcElem {
 
     public String getJavaValueDesc();
     public Object getValue();
 
-    /*
-     * Without the prefix #
-     */
-    public String getConstructorKeyword();
-
     @Override
-    public default IValueLiteral evaluate(InterpEnv env) {
+    public default IValue evaluate(InterpEnv env) {
         return this;
     }
 }

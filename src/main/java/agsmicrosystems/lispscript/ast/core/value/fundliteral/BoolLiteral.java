@@ -2,7 +2,6 @@ package agsmicrosystems.lispscript.ast.core.value.fundliteral;
 
 import agsmicrosystems.lispscript.ast.prototype.EFundType;
 import agsmicrosystems.lispscript.ast.prototype.IFundValueLiteral;
-import agsmicrosystems.lispscript.ast.prototype.IValueLiteral;
 
 /**
  * Created by zhangyutong926 on 1/25/17.

@@ -7,5 +7,5 @@ import agsmicrosystems.lispscript.interp.InterpEnv;
  */
 public interface ISmtcElem {
 
-    public IValueLiteral evaluate(InterpEnv env);
+    public IValue evaluate(InterpEnv env);
 }

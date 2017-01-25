@@ -1,7 +1,7 @@
 package agsmicrosystems.lispscript.ast.core.stmt;
 
 import agsmicrosystems.lispscript.ast.prototype.ISmtcElem;
-import agsmicrosystems.lispscript.ast.prototype.IValueLiteral;
+import agsmicrosystems.lispscript.ast.prototype.IValue;
 import agsmicrosystems.lispscript.interp.InterpEnv;
 
 import java.util.List;
@@ -17,7 +17,7 @@ public class DefValueElem extends AStmtElem {
     }
 
     @Override
-    protected IValueLiteral evaluateThis(InterpEnv env, List<ISmtcElem> children) {
+    protected IValue evaluateThis(InterpEnv env, List<ISmtcElem> children) {
         // TODO
         return null;
     }

@@ -1,7 +1,7 @@
 package agsmicrosystems.lispscript.ast.core;
 
 import agsmicrosystems.lispscript.ast.prototype.ISmtcElem;
-import agsmicrosystems.lispscript.ast.prototype.IValueLiteral;
+import agsmicrosystems.lispscript.ast.prototype.IValue;
 import agsmicrosystems.lispscript.interp.InterpEnv;
 
 /**
@@ -12,7 +12,7 @@ public class ApplyBindingElem implements ISmtcElem {
     private String bindingName;
 
     @Override
-    public IValueLiteral evaluate(InterpEnv env) {
+    public IValue evaluate(InterpEnv env) {
         // TODO
         return null;
     }
