@@ -1,4 +1,4 @@
-package agsmicrosystems.lispscript.ast.core;
+package agsmicrosystems.lispscript.ast.core.concept.binding;
 
 import agsmicrosystems.lispscript.ast.prototype.ISmtcElem;
 import agsmicrosystems.lispscript.ast.prototype.IValue;
@@ -7,7 +7,7 @@ import agsmicrosystems.lispscript.interp.InterpEnv;
 /**
  * Created by zhangyutong926 on 1/25/17.
  */
-public class ApplyBindingElem implements ISmtcElem {
+public class ApplyBindingSmtc implements ISmtcElem {
 
     private String bindingName;
 
@@ -17,7 +17,7 @@ public class ApplyBindingElem implements ISmtcElem {
         return null;
     }
 
-    public ApplyBindingElem(String bindingName) {
+    public ApplyBindingSmtc(String bindingName) {
         this.bindingName = bindingName;
     }
 

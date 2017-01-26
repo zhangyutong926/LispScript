@@ -1,5 +1,6 @@
-package agsmicrosystems.lispscript.ast.core.stmt;
+package agsmicrosystems.lispscript.ast.core.concept.binding;
 
+import agsmicrosystems.lispscript.ast.prototype.AStmtElem;
 import agsmicrosystems.lispscript.ast.prototype.ISmtcElem;
 import agsmicrosystems.lispscript.ast.prototype.IValue;
 import agsmicrosystems.lispscript.interp.InterpEnv;
@@ -9,7 +10,7 @@ import java.util.List;
 /**
  * Created by zhangyutong926 on 1/25/17.
  */
-public class DefValueElem extends AStmtElem {
+public class DefBindingStmt extends AStmtElem {
 
     @Override
     public String getStmtTag() {
@@ -22,7 +23,7 @@ public class DefValueElem extends AStmtElem {
         return null;
     }
 
-    public DefValueElem(List<ISmtcElem> childSmtcList) {
+    public DefBindingStmt(List<ISmtcElem> childSmtcList) {
         super(childSmtcList);
     }
 }

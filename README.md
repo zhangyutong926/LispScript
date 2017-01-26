@@ -4,7 +4,6 @@
 
 ```lisp
 ! module HelloWorld
-! type Executable
 ! import-system IO
 
 (cli-print #"Hello World!")
