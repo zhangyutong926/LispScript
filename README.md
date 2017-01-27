@@ -64,7 +64,7 @@ constructors:
 As you may already found that in other languages you always choose to represent a
 string with a char list. But considering the list in the LispScript is a representation
 of a composited varies data items, we defined a brand-new type for the string.
-``#"Hello World"    (#mkstring "Hello World")``
+``#"Hello World"    (#mkstr "Hello World")``
 
 ### Bindings and Names
 Binding is another important concept in a functional language. It is a name-value

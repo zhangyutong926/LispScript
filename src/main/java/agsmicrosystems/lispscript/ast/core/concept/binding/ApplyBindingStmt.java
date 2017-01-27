@@ -10,20 +10,33 @@ import java.util.List;
 /**
  * Created by zhangyutong926 on 1/25/17.
  */
-public class DefBindingStmt extends AStmtElem {
+public class ApplyBindingStmt extends AStmtElem {
 
-    @Override
-    public String getStmtTag() {
-        return "def";
+    private String bindingName;
+
+    protected ApplyBindingStmt(List<ISmtcElem> childSmtcList) {
+        super(childSmtcList);
+        // TODO
     }
 
     @Override
-    protected IFundValue evaluateThis(InterpEnv env, List<ISmtcElem> children) {
+    public IFundValue evaluate(InterpEnv env) {
         // TODO
         return null;
     }
 
-    public DefBindingStmt(List<ISmtcElem> childSmtcList) {
-        super(childSmtcList);
+    @Override
+    protected IFundValue evaluateThis(InterpEnv env, List<ISmtcElem> children) {
+        return null;
+    }
+
+
+    public String getBindingName() {
+        return bindingName;
+    }
+
+    @Override
+    public String getStmtTag() {
+        return null;
     }
 }

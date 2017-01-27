@@ -1,7 +1,5 @@
 package agsmicrosystems.lispscript.ast.prototype;
 
-import agsmicrosystems.lispscript.interp.InterpEnv;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,8 +11,8 @@ public abstract class AStmtElem implements IStmtElem {
     protected List<ISmtcElem> childSmtcList = new ArrayList<>();
 
     @Override
-    public IValue evaluate(InterpEnv env) {
-        return evaluateThis(env, childSmtcList);
+    public IFundValue evaluate() {
+        return evaluateThis(childSmtcList);
     }
 
     @Override
@@ -22,7 +20,7 @@ public abstract class AStmtElem implements IStmtElem {
         return null;
     }
 
-    protected abstract IValue evaluateThis(InterpEnv env, List<ISmtcElem> children);
+    protected abstract IFundValue evaluateThis(List<ISmtcElem> children);
 
     protected AStmtElem(List<ISmtcElem> childSmtcList) {
         this.childSmtcList = childSmtcList;

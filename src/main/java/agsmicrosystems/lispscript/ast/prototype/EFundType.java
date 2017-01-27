@@ -9,5 +9,7 @@ public enum EFundType {
     BOOL,
     LIST,
     CHAR,
-    STRING;
+    STRING,
+    FUNCTION,
+    OBJECT;
 }
