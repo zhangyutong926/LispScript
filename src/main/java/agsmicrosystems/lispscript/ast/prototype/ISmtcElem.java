@@ -9,5 +9,5 @@ public interface ISmtcElem {
      * For those AST element that require InterpEnv, please hold the reference on your own.
      * @return
      */
-    public IFundValue evaluate();
+    IFundValue evaluate();
 }
