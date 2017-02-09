@@ -5,9 +5,5 @@ package agsmicrosystems.lispscript.ast.prototype;
  */
 public interface ISmtcElem {
 
-    /**
-     * For those AST element that require InterpEnv, please hold the reference on your own.
-     * @return
-     */
-    IFundValue evaluate();
+    // FIXME Evaluator has been removed and emigrated to a iteration evaluator due to the low performance of java method recursion.
 }

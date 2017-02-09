@@ -1,8 +1,8 @@
-package agsmicrosystems.lispscript.ast.core.value.fund.factory;
+package agsmicrosystems.lispscript.parser.core.value.fund;
 
 import agsmicrosystems.lispscript.ast.prototype.EFundType;
 import agsmicrosystems.lispscript.ast.prototype.IFundValue;
-import agsmicrosystems.lispscript.ast.prototype.IFundValueLiteralFactory;
+import agsmicrosystems.lispscript.parser.prototype.IFundValueLiteralFactory;
 
 /**
  * Created by zhangyutong926 on 1/25/17.

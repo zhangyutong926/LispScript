@@ -1,5 +1,6 @@
 package agsmicrosystems.lispscript.ast.core.value.internal;
 
+import agsmicrosystems.lispscript.ast.prototype.EFundType;
 import agsmicrosystems.lispscript.ast.prototype.IFundValue;
 
 /**
@@ -9,12 +10,7 @@ import agsmicrosystems.lispscript.ast.prototype.IFundValue;
 public class SideEffect implements IFundValue {
 
     @Override
-    public String getJavaValueDesc() {
-        return null;
-    }
-
-    @Override
-    public Object getValue() {
-        return null;
+    public EFundType getFundType() {
+        return EFundType.SIDE_EFFECT;
     }
 }

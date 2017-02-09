@@ -8,7 +8,7 @@ import java.util.List;
  */
 public abstract class AStmtElem implements IStmtElem {
 
-    protected List<ISmtcElem> childSmtcList = new ArrayList<>();
+    public List<ISmtcElem> childSmtcList = new ArrayList<>();
 
     @Override
     public IFundValue evaluate() {

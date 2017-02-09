@@ -1,4 +1,7 @@
-package agsmicrosystems.lispscript.ast.prototype;
+package agsmicrosystems.lispscript.parser.prototype;
+
+import agsmicrosystems.lispscript.ast.prototype.EFundType;
+import agsmicrosystems.lispscript.ast.prototype.IFundValue;
 
 /**
  * Created by zhangyutong926 on 1/24/17.

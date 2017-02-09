@@ -1,16 +1,16 @@
-package agsmicrosystems.lispscript.ast.core.value.fund.factory;
+package agsmicrosystems.lispscript.parser.core.value.fund;
 
 import agsmicrosystems.lispscript.ast.prototype.EFundType;
-import agsmicrosystems.lispscript.ast.prototype.IFundValueLiteralFactory;
+import agsmicrosystems.lispscript.parser.prototype.IFundValueLiteralFactory;
 
 /**
  * Created by zhangyutong926 on 1/25/17.
  */
-public class ListLiteralFactory implements IFundValueLiteralFactory {
+public class RationalLiteralFactory implements IFundValueLiteralFactory {
 
     @Override
     public EFundType getFundType() {
-        return EFundType.LIST;
+        return EFundType.RATIONAL;
     }
 
     @Override
@@ -20,11 +20,11 @@ public class ListLiteralFactory implements IFundValueLiteralFactory {
 
     @Override
     public String getLiteralConstructorRegex() {
-        return "\\[.*\\]";
+        return "((0x([A-F]|[a-f]|[0-9])+)|(\\d+\\.\\d+)|(\\d+\\/\\d+)|(\\d))";
     }
 
     @Override
     public String getConstructorKeyword() {
-        return "mklist";
+        return "mkrat";
     }
 }

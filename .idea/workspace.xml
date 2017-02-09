@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e47a1524-ca15-4d85-991d-82c26d5f79b3" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/BoolLiteralFactory.java" afterPath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/core/value/fund/BoolLiteralFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/CharLiteralFactory.java" afterPath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/core/value/fund/CharLiteralFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/FunctionLiteralFactory.java" afterPath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/core/value/fund/FunctionLiteralFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/ListLiteralFactory.java" afterPath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/core/value/fund/ListLiteralFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/RationalLiteralFactory.java" afterPath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/core/value/fund/RationalLiteralFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/StringLiteralFactory.java" afterPath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/core/value/fund/StringLiteralFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/IFundValueLiteralFactory.java" afterPath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/prototype/IFundValueLiteralFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/internal/SideEffect.java" afterPath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/internal/SideEffect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/AStmtElem.java" afterPath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/AStmtElem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/EFundType.java" afterPath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/EFundType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/IFundValue.java" afterPath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/IFundValue.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/ISmtcElem.java" afterPath="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/ISmtcElem.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,12 +40,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ISmtcElem.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/ISmtcElem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="583">
+                <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -70,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/BoolFundValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/ISemanticElem.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/IStmtElem.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/fvaluel/BoolLiteral.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/fvaluel/CharLiteral.java" />
@@ -83,7 +96,6 @@
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/data/Interpreter.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/script/ILispScript.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/script/EScriptType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/internal/SideEffect.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/IValueLiteral.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/stmt/AStmtElem.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/concept/binding/ApplyBindingElem.java" />
@@ -97,7 +109,6 @@
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/jinterface/meta/JinterDyBindingMetadata.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/jinterface/meta/JinterClassMetadata.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/interp/InterpEnv.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/concept/binding/DefBindingStmt.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/concept/binding/ApplyBindingSmtc.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/concept/binding/ApplyBindingStmt.java" />
@@ -110,17 +121,21 @@
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/IFundValueLiteral.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fundliteral/factory/StringLiteralFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/BoolLiteralFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/EFundType.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/IValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/IFundValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/AStmtElem.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/FunctionLiteralFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/CharLiteralFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/ListLiteralFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/RationalLiteralFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/StringLiteralFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/IFundValueLiteralFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/core/value/fund/StringLiteralFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/AStmtElem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/IFundValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/ISmtcElem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/EFundType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/internal/SideEffect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/prototype/IFundValueLiteralFactory.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -151,6 +166,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -261,6 +278,90 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LispScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LispScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agsmicrosystems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lispscript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="value" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fund" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LispScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LispScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agsmicrosystems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lispscript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="jinterface" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -300,6 +401,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="interp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LispScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LispScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agsmicrosystems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lispscript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -382,50 +517,8 @@
               <option name="myItemId" value="value" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LispScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LispScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="agsmicrosystems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lispscript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="value" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fund" />
+              <option name="myItemId" value="internal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -468,14 +561,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="value" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fund" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -607,14 +692,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xiaov/pom.xml" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1087,7 +1170,8 @@
       <workItem from="1485351856628" duration="12052000" />
       <workItem from="1485520817211" duration="1457000" />
       <workItem from="1485568730420" duration="640000" />
-      <workItem from="1485569887015" duration="2152000" />
+      <workItem from="1485569887015" duration="3904000" />
+      <workItem from="1485696544028" duration="2866000" />
     </task>
     <task id="LOCAL-00001" summary="A lot of things that even I cannot count and state">
       <created>1485331888845</created>
@@ -1110,11 +1194,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485522251139</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cancel passing the InterpEnv into evaluate method">
+      <created>1485591786537</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1485591786537</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36254000" />
+    <option name="totallyTimeSpent" value="40872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1375" height="876" extended-state="6" />
@@ -1137,11 +1228,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.408" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.408" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3589165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36493605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1164,7 +1255,8 @@
     <MESSAGE value="A lot of things that even I cannot count and state" />
     <MESSAGE value="Interpretation environment, Binding, Jinter Metadata" />
     <MESSAGE value="Big architectural changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Big architectural changes" />
+    <MESSAGE value="Cancel passing the InterpEnv into evaluate method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cancel passing the InterpEnv into evaluate method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1179,9 +1271,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/ISmtcElem.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <marker date="1486653102966" expanded="true" signature="51:99" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/ISmtcElem.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1486653102966" expanded="true" signature="51:99" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1189,11 +1293,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1486653102966" expanded="true" signature="51:99" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/StringLiteralFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/core/value/fund/StringLiteralFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -1264,15 +1370,12 @@
         <state relative-caret-position="270">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1485521620291" expanded="true" signature="51:99" ph="/**...*/" />
-            <marker date="1485521620291" expanded="true" signature="183:278" ph="/**...*/" />
-            <marker date="1485521620291" expanded="false" signature="326:337" ph=" { " />
-            <marker date="1485521620291" expanded="false" signature="349:355" ph=" }" />
+            <marker date="1486653102974" expanded="true" signature="51:99" ph="/**...*/" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/IFundValueLiteralFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/prototype/IFundValueLiteralFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
@@ -1283,7 +1386,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
+          <folding>
+            <marker date="1486653102966" expanded="true" signature="51:99" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1344,10 +1449,7 @@
         <state relative-caret-position="324">
           <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <marker date="1485521620291" expanded="true" signature="51:99" ph="/**...*/" />
-            <marker date="1485521620291" expanded="true" signature="183:278" ph="/**...*/" />
-            <marker date="1485521620291" expanded="false" signature="326:337" ph=" { " />
-            <marker date="1485521620291" expanded="false" signature="349:355" ph=" }" />
+            <marker date="1486653102974" expanded="true" signature="51:99" ph="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -1356,7 +1458,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
+          <folding>
+            <marker date="1486653102966" expanded="true" signature="51:99" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1365,14 +1469,14 @@
         <state relative-caret-position="450">
           <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
-            <marker date="1485521647622" expanded="true" signature="58:101" ph="..." />
-            <marker date="1485521647622" expanded="true" signature="103:151" ph="/**...*/" />
-            <marker date="1485521647622" expanded="false" signature="320:331" ph=" { " />
-            <marker date="1485521647622" expanded="false" signature="366:372" ph=" }" />
-            <marker date="1485521647622" expanded="false" signature="433:444" ph=" { " />
-            <marker date="1485521647622" expanded="false" signature="456:462" ph=" }" />
-            <marker date="1485521647622" expanded="false" signature="593:604" ph=" { " />
-            <marker date="1485521647622" expanded="false" signature="639:645" ph=" }" />
+            <marker date="1486652848081" expanded="true" signature="58:101" ph="..." />
+            <marker date="1486652848081" expanded="true" signature="103:151" ph="/**...*/" />
+            <marker date="1486652848081" expanded="false" signature="317:328" ph=" { " />
+            <marker date="1486652848081" expanded="false" signature="363:369" ph=" }" />
+            <marker date="1486652848081" expanded="false" signature="430:441" ph=" { " />
+            <marker date="1486652848081" expanded="false" signature="453:459" ph=" }" />
+            <marker date="1486652848081" expanded="false" signature="590:601" ph=" { " />
+            <marker date="1486652848081" expanded="false" signature="636:642" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1421,13 +1525,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/script/EScriptType.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/internal/SideEffect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/data/Interpreter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1461,16 +1558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="813">
-            <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1516,15 +1603,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/IFundValue.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/core/value/fund/BoolLiteralFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/core/value/fund/CharLiteralFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/core/value/fund/FunctionLiteralFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/core/value/fund/ListLiteralFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/core/value/fund/RationalLiteralFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/core/value/fund/StringLiteralFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <marker date="1485521620291" expanded="true" signature="51:99" ph="/**...*/" />
-            <marker date="1485521620291" expanded="true" signature="183:278" ph="/**...*/" />
-            <marker date="1485521620291" expanded="false" signature="326:337" ph=" { " />
-            <marker date="1485521620291" expanded="false" signature="349:355" ph=" }" />
+            <marker date="1486653491452" expanded="false" signature="67:255" ph="..." />
+            <marker date="1486653491452" expanded="true" signature="257:305" ph="/**...*/" />
+            <marker date="1486653491452" expanded="false" signature="427:438" ph=" { " />
+            <marker date="1486653491452" expanded="false" signature="462:468" ph=" }" />
+            <marker date="1486653491452" expanded="false" signature="555:566" ph=" { " />
+            <marker date="1486653491452" expanded="false" signature="578:584" ph=" }" />
+            <marker date="1486653491452" expanded="false" signature="646:657" ph=" { " />
+            <marker date="1486653491452" expanded="false" signature="677:683" ph=" }" />
+            <marker date="1486653491452" expanded="false" signature="740:751" ph=" { " />
+            <marker date="1486653491452" expanded="false" signature="766:772" ph=" }" />
+            <marker date="1486653491452" expanded="false" signature="852:863" ph=" { " />
+            <marker date="1486653491452" expanded="false" signature="875:881" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/AStmtElem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <marker date="1486652848081" expanded="true" signature="58:101" ph="..." />
+            <marker date="1486652848081" expanded="true" signature="103:151" ph="/**...*/" />
+            <marker date="1486652848081" expanded="false" signature="317:328" ph=" { " />
+            <marker date="1486652848081" expanded="false" signature="363:369" ph=" }" />
+            <marker date="1486652848081" expanded="false" signature="430:441" ph=" { " />
+            <marker date="1486652848081" expanded="false" signature="453:459" ph=" }" />
+            <marker date="1486652848081" expanded="false" signature="590:601" ph=" { " />
+            <marker date="1486652848081" expanded="false" signature="636:642" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1533,94 +1692,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <marker date="1485313532695" expanded="true" signature="75:123" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/AStmtElem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/ISmtcElem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+        <state relative-caret-position="126">
+          <caret line="7" column="131" lean-forward="false" selection-start-line="7" selection-start-column="131" selection-end-line="7" selection-end-column="131" />
           <folding>
-            <marker date="1485521647622" expanded="true" signature="58:101" ph="..." />
-            <marker date="1485521647622" expanded="true" signature="103:151" ph="/**...*/" />
-            <marker date="1485521647622" expanded="false" signature="320:331" ph=" { " />
-            <marker date="1485521647622" expanded="false" signature="366:372" ph=" }" />
-            <marker date="1485521647622" expanded="false" signature="433:444" ph=" { " />
-            <marker date="1485521647622" expanded="false" signature="456:462" ph=" }" />
-            <marker date="1485521647622" expanded="false" signature="593:604" ph=" { " />
-            <marker date="1485521647622" expanded="false" signature="639:645" ph=" }" />
+            <marker date="1486653102966" expanded="true" signature="51:99" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/IFundValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <marker date="1486653102974" expanded="true" signature="51:99" ph="/**...*/" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/EFundType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="252">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <marker date="1486653151737" expanded="true" signature="51:99" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/CharLiteralFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/internal/SideEffect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="216">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <marker date="1486653158072" expanded="true" signature="68:179" ph="..." />
+            <marker date="1486653158072" expanded="true" signature="181:298" ph="/**...*/" />
+            <marker date="1486653158072" expanded="false" signature="396:407" ph=" { " />
+            <marker date="1486653158072" expanded="false" signature="436:442" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/FunctionLiteralFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/parser/prototype/IFundValueLiteralFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="360">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <marker date="1486653491452" expanded="false" signature="61:172" ph="..." />
+            <marker date="1486653491452" expanded="true" signature="174:222" ph="/**...*/" />
+            <marker date="1486653491452" expanded="true" signature="303:701" ph="{...}" />
+            <marker date="1486653491452" expanded="true" signature="450:539" ph="{...}" />
+            <marker date="1486653491452" expanded="false" signature="575:590" ph=" { " />
+            <marker date="1486653491452" expanded="false" signature="607:617" ph=" }" />
+            <marker date="1486653491452" expanded="false" signature="654:669" ph=" { " />
+            <marker date="1486653491452" expanded="false" signature="685:695" ph=" }" />
+            <marker date="1486653491452" expanded="true" signature="737:967" ph="/**...*/" />
+            <marker date="1486653491452" expanded="true" signature="1039:1139" ph="/**...*/" />
+            <marker date="1486653491452" expanded="true" signature="1186:1281" ph="/**...*/" />
+            <marker date="1486653491452" expanded="true" signature="1323:1546" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/ListLiteralFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/RationalLiteralFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/BoolLiteralFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/core/value/fund/factory/StringLiteralFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/IFundValueLiteralFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="35" column="73" lean-forward="false" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/agsmicrosystems/lispscript/ast/prototype/ISmtcElem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="583">
+            <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

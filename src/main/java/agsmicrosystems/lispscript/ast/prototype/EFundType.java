@@ -11,5 +11,6 @@ public enum EFundType {
     CHAR,
     STRING,
     FUNCTION,
-    OBJECT;
+    OBJECT,
+    SIDE_EFFECT;
 }

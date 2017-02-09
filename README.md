@@ -33,8 +33,7 @@ concepts of the LispScript is very different from the original one.
 
 ### Types and Literal Constructors
 First, we're not intended to implement a typed Lisp (like typed Racket).
-With this target, we designed a type system that contains only 5 basic types,
-and to make it simple, we do not want to implement a data type construction syntax.
+With this target, we designed a type system that contains only 8 basic types,
 
 There is a literal initializing system allow you to write data directed into your
 program for the basic type.
@@ -65,6 +64,11 @@ As you may already found that in other languages you always choose to represent 
 string with a char list. But considering the list in the LispScript is a representation
 of a composited varies data items, we defined a brand-new type for the string.
 ``#"Hello World"    (#mkstr "Hello World")``
+6. Function:
+7. Object:
+8. Side Effect Abstraction:
+
+(Working in progress)
 
 ### Bindings and Names
 Binding is another important concept in a functional language. It is a name-value
@@ -84,4 +88,5 @@ dashes ("-") and underlines ("_"). And it can be the same as the system predefin
 such as ``$defval`` or ``$defun``.
 
 ### Functions, Closures and Anonymous Functions
-(-The following content are being worked in process-)
+
+(Working in progress)

@@ -6,13 +6,4 @@ package agsmicrosystems.lispscript.ast.prototype;
 public interface IFundValue extends ISmtcElem {
 
     EFundType getFundType();
-
-    /**
-     * For special case model.FunctionLiteral, override for yourself
-     * @return
-     */
-    @Override
-    default IFundValue evaluate() {
-        return this;
-    }
 }
