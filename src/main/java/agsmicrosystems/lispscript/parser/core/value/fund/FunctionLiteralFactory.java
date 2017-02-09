@@ -1,6 +1,7 @@
 package agsmicrosystems.lispscript.parser.core.value.fund;
 
 import agsmicrosystems.lispscript.ast.prototype.EFundType;
+import agsmicrosystems.lispscript.ast.prototype.IFundValue;
 import agsmicrosystems.lispscript.parser.prototype.IFundValueLiteralFactory;
 
 /**
@@ -26,5 +27,11 @@ public class FunctionLiteralFactory implements IFundValueLiteralFactory {
     @Override
     public String getConstructorKeyword() {
         return "mkfun";
+    }
+
+    @Override
+    public IFundValue createValueFromCodeSeg(String codeSegment) {
+        // TODO
+        return null;
     }
 }

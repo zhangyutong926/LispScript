@@ -11,16 +11,9 @@ public abstract class AStmtElem implements IStmtElem {
     public List<ISmtcElem> childSmtcList = new ArrayList<>();
 
     @Override
-    public IFundValue evaluate() {
-        return evaluateThis(childSmtcList);
-    }
-
-    @Override
     public List<ISmtcElem> getChildSmtcList() {
         return null;
     }
-
-    protected abstract IFundValue evaluateThis(List<ISmtcElem> children);
 
     protected AStmtElem(List<ISmtcElem> childSmtcList) {
         this.childSmtcList = childSmtcList;

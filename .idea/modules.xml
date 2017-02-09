@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lispscript.iml" filepath="$PROJECT_DIR$/.idea/modules/lispscript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lispscript_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lispscript_main.iml" group="lispscript" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lispscript_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lispscript_test.iml" group="lispscript" />
     </modules>
   </component>
 </project>

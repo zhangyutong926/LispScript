@@ -19,18 +19,6 @@ public class ApplyBindingStmt extends AStmtElem {
         // TODO
     }
 
-    @Override
-    public IFundValue evaluate(InterpEnv env) {
-        // TODO
-        return null;
-    }
-
-    @Override
-    protected IFundValue evaluateThis(InterpEnv env, List<ISmtcElem> children) {
-        return null;
-    }
-
-
     public String getBindingName() {
         return bindingName;
     }

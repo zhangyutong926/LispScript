@@ -17,12 +17,6 @@ public class DefBindingStmt extends AStmtElem {
         return "def";
     }
 
-    @Override
-    protected IFundValue evaluateThis(InterpEnv env, List<ISmtcElem> children) {
-        // TODO
-        return null;
-    }
-
     public DefBindingStmt(List<ISmtcElem> childSmtcList) {
         super(childSmtcList);
     }
