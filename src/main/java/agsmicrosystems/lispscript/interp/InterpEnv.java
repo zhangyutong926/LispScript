@@ -8,6 +8,8 @@ import java.util.*;
 /**
  * Created by zhangyutong926 on 1/25/17.
  * Instantiate one and only one in Main
+ * TODO Stack for scope closure
+ * TODO ValuePool for immutable binding memory optimization
  */
 public class InterpEnv {
 

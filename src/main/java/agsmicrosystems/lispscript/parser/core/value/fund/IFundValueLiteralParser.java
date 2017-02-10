@@ -1,30 +1,13 @@
-package agsmicrosystems.lispscript.parser.prototype;
+package agsmicrosystems.lispscript.parser.core.value.fund;
 
 import agsmicrosystems.lispscript.ast.prototype.EFundType;
 import agsmicrosystems.lispscript.ast.prototype.IFundValue;
+import agsmicrosystems.lispscript.parser.core.error.LiteralSyntacticCorrectness;
 
 /**
  * Created by zhangyutong926 on 1/24/17.
  */
-public interface IFundValueLiteralFactory {
-
-    class LiteralSyntaxCorrectness {
-        private boolean isCorrent;
-        private String errorMsg;
-
-        public LiteralSyntaxCorrectness(boolean isCorrent, String errorMsg) {
-            this.isCorrent = isCorrent;
-            this.errorMsg = errorMsg;
-        }
-
-        public boolean isCorrent() {
-            return isCorrent;
-        }
-
-        public String getErrorMsg() {
-            return errorMsg;
-        }
-    }
+public interface IFundValueLiteralParser {
 
     EFundType getFundType();
 
@@ -33,7 +16,7 @@ public interface IFundValueLiteralFactory {
      * @param codeSegment The code segment waiting to be checked
      * @return Syntax correctness (if it is, )
      */
-    LiteralSyntaxCorrectness isSyntaxCorrect(String codeSegment);
+    LiteralSyntacticCorrectness isSyntaxCorrect(String codeSegment);
 
     /**
      * e.g. <code>\".*\"</code> for <code>#"HelloWorld"</code>, without #

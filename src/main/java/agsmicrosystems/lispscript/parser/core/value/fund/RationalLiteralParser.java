@@ -2,12 +2,12 @@ package agsmicrosystems.lispscript.parser.core.value.fund;
 
 import agsmicrosystems.lispscript.ast.prototype.EFundType;
 import agsmicrosystems.lispscript.ast.prototype.IFundValue;
-import agsmicrosystems.lispscript.parser.prototype.IFundValueLiteralFactory;
+import agsmicrosystems.lispscript.parser.core.error.LiteralSyntacticCorrectness;
 
 /**
  * Created by zhangyutong926 on 1/25/17.
  */
-public class RationalLiteralFactory implements IFundValueLiteralFactory {
+public class RationalLiteralParser implements IFundValueLiteralParser {
 
     @Override
     public EFundType getFundType() {
@@ -15,7 +15,7 @@ public class RationalLiteralFactory implements IFundValueLiteralFactory {
     }
 
     @Override
-    public LiteralSyntaxCorrectness isSyntaxCorrect(String codeSegment) {
+    public LiteralSyntacticCorrectness isSyntaxCorrect(String codeSegment) {
         return null;
     }
 
